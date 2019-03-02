@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+body { background: #F1F1F1; }
+
+.colored {
+  width: 500px; height: 500px;
+  background: #FC0;
+}
+
+.transparent { opacity: 0.5; }
