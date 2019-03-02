@@ -1,0 +1,8 @@
+@import url(reset.css);
+
+body { background: #F1F1F1; }
+
+.picture-block {
+  width: 400px; height: 260px;
+  background-size: cover;
+}
