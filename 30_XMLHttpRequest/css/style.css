@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,800');
 @import url(reset.css);
 
-body { background: #F1F1F1; }
+body {
+  font-size: 30px; font-family: open sans;
+  background: #F1F1F1;
+}
+
+/* Form */
+form {
+  display: flex; flex-direction: column;
+  width: 400px;
+  margin: 100px auto 30px; padding: 20px;
+  background: #FFF;
+  border-radius: 25px;
+  box-shadow: 0 5px 30px rgba(0,0,0,.1);
+  box-sizing: border-box;
+}
+form > *:not(:last-child) {
+  margin-bottom: 15px;
+}
+.form-group {
+  display: flex; align-items: center;
+}
+label {
+  min-width: 4em;
+  margin-right: 10px;
+  font-size: .6em;
+}
+input {
+  flex-grow: 1;
+  padding: 0.5em;
+  font-size: 20px;
+  border: 2px solid #f1f1f1; border-radius: 5px;
+}
+button {
+  padding: 0.5em;
+  font-size: 20px; color: #FFF;
+  background: #242424;
+  border: none; border-radius: 5px;
+  cursor: pointer;
+}
+button:hover { background: #000; }
+
+/* Result */
+.result {
+  line-height: 1.8; text-align: center;
+}
+.result__city { text-transform: capitalize; }
